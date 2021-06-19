@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>徒手攀岩</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- start your project here -->
+  <!--Main Navigation-->
+  <header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index.html">徒手攀岩</a>  
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">首页</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="movie.html">电影介绍</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="protagonist.html">主人公介绍</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rock.html">岩石介绍</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ins.html">感悟</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="report.html">报告</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Collapsible content -->
+      </div> 
+    </nav>
+    <!--/.Navbar-->
+  </header>
+
+<main class="mt-5">
+  <div class="container">
+    <h1 class="text-center">《Web应用基础》课程结业报告</h1>
+    <!--Section: dowhat-->
+    <section id="dowhat">
+      <h2>一、做的什么</h2>
+      <p>&emsp;我的期末结业作业内容是构建一个以徒手攀岩为主题的静态网站。使用的是MDB框架，包含5个介绍页面和1个报告页面。</p>
+    </section>
+    <!--Section: dowhat-->
+
+    <hr class="my-5">
+
+    <!--Section: deveprocess-->
+    <section id="deveprocess">
+      <h2>二、开发过程</h2>
+      <p>&emsp;每个页面都由导航条、页面主体和页面底部组成。</p>
+      <h3>1、导航条</h3>
+      <p>&emsp;在页面最上方构建一个导航条，通过导航条跳转到对应的5个介绍页面和1个报告页面，每个页面都有相同内容和功能的导航条，下图：</p>
+      <img src="img/report/daohangtiao.png">
+
+      <p></p>
+
+      <h3>2、页面主体</h3>
+      <h4>(1)首页</h4>
+      <p>&emsp;分为三个section，分别介绍攀岩、攀岩种类和攀岩装备。</p>
+      <div class="row">
+      <!--column-->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <!-- Card Narrower -->
+        <div class="card card-cascade narrower">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="img/report/shouye/section1.png" height="250"
+              alt="Card image cap">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <!-- Card content -->
+          <div class="card-body card-body-cascade">
+            <!-- Text -->
+            <p class="card-text">一行分为两列，一列叙述攀岩，另一列用轮播来进行攀岩图片的展示。</p>
+          </div>
+        </div>
+        <!-- Card Narrower -->
+      </div>
+      <!--column-->
+
+      <!--column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <!-- Card Narrower -->
+        <div class="card card-cascade narrower">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="img/report/shouye/section2.png"
+              alt="Card image cap">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <!-- Card content -->
+          <div class="card-body card-body-cascade">
+            <!-- Text -->
+            <p class="card-text">分为两行，第一行采用图片加文字叙述来描述徒手攀岩，第二行作三列卡片，用图片加文字分别描述顶绳攀登、先锋攀登和自动保护器
+              攀登。
+            </p>
+          </div>
+        </div>
+        <!-- Card Narrower -->
+      </div>
+      <!--column-->
+
+      <!--column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <!-- Card Narrower -->
+        <div class="card card-cascade narrower">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="img/report/shouye/section3.png" height="250"
+              alt="Card image cap">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <!-- Card content -->
+          <div class="card-body card-body-cascade">
+            <!-- Text -->
+            <p class="card-text">只是文字简单描述攀岩装备。</p>
+          </div>
+        </div>
+        <!-- Card Narrower -->
+      </div>
+      <!--column-->
+      </div>
+
+      <p></p>
+
+      <h4>(2)电影介绍</h4>
+      <p>&emsp;分为三个section，分别是介绍电影《徒手攀岩》、幕后创作和影评。</p>
+      <div class="row">
+        <!--column-->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <!-- Card Narrower -->
+        <div class="card card-cascade narrower">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="img/report/dianyingjieshao/section1.png" height="200"
+              alt="Card image cap">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <!-- Card content -->
+          <div class="card-body card-body-cascade">
+            <!-- Text -->
+            <p class="card-text">一行分为两列，一列介绍《徒手攀岩》，另一列插入了《徒手攀岩》的图片。</p>
+          </div>
+        </div>
+        <!-- Card Narrower -->
+      </div>
+      <!--column-->
+
+      <!--column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <!-- Card Narrower -->
+        <div class="card card-cascade narrower">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="img/report/dianyingjieshao/section2.png" height="230"
+              alt="Card image cap">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <!-- Card content -->
+          <div class="card-body card-body-cascade">
+            <!-- Text -->
+            <p class="card-text">文字描述电影的幕后创作。
+            </p>
+          </div>
+        </div>
+        <!-- Card Narrower -->
+      </div>
+      <!--column-->
+
+      <!--column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <!-- Card Narrower -->
+        <div class="card card-cascade narrower">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="img/report/dianyingjieshao/section3.png"
+              alt="Card image cap">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <!-- Card content -->
+          <div class="card-body card-body-cascade">
+            <!-- Text -->
+            <p class="card-text">插入了许多轮播影评，可自动也可手动翻页。</p>
+          </div>
+        </div>
+        <!-- Card Narrower -->
+      </div>
+      <!--column-->
+      </div>
+
+      <p></p>
+
+      <h4>(3)主人公介绍</h4>
+      <p>&emsp;分为四个section，分别是介绍亚历克斯·霍诺德、他对两个问题的解答和引用他的话。</p>
+      <div class="row">
+        <!--column-->
+        <div class="col-md-6">
+          <div class="view overlay z-depth-1-half">
+            <img src="img/report/zhurengongjieshao/section1.png" class="card-img-top" alt="">
+            <div class="mask rgba-white-light"></div>
+          </div>
+        </div>
+        <!--column-->
+        <!--column-->
+        <div class="col-md-6">
+          <p>文字加图片介绍主人公亚历克斯·霍诺德。</p>
+        </div>
+        <!--column-->
+      </div>
+
+      <p></p>
+
+      <div class="row">
+      <!--column-->
+      <div class="col-lg-4 col-md-12">
+        <!--Card-->
+        <div class="card">
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="img/report/zhurengongjieshao/section2.png" class="card-img-top"
+              alt="">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Text-->
+            <p class="card-text">文字叙述解答问题。</p>
+          </div>
+        </div>
+        <!--/.Card-->
+      </div>
+      <!--column-->
+      <!--column-->
+      <div class="col-lg-4 col-md-6">
+        <!--Card-->
+        <div class="card">
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="img/report/zhurengongjieshao/section3.png" class="card-img-top"
+              alt="">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Text-->
+            <p class="card-text">文字叙述解答问题。</p>
+          </div>
+        </div>
+        <!--/.Card-->
+      </div>
+      <!--column-->
+      <!--column-->
+      <div class="col-lg-4 col-md-6">
+        <!--Card-->
+        <div class="card">
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="img/report/zhurengongjieshao/section4.png" class="card-img-top"
+              alt="">
+            <div class="mask rgba-white-slight"></div>
+          </div>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Text-->
+            <p class="card-text">引用主人公亚历克斯·霍诺德的话，并加有酋长岩的背景图。</p>
+          </div>
+        </div>
+        <!--/.Card-->
+      </div>
+      <!--column-->
+    </div>
+
+    <p></p>
+
+    <h4>(4)岩石介绍</h4>
+    <p>&emsp;分为三个section，分别介绍主人公亚历克斯·霍诺德登顶的三座具有象征意义的巨岩：月华拱璧、半穹顶和酋长岩。</p>
+    <div class="row">
+      <!--column-->
+    <div class="col-md-6">
+      <div class="view overlay z-depth-1-half">
+        <img src="img/report/yanshijieshao/section1.png" class="card-img-top" alt="">
+        <div class="mask rgba-white-light"></div>
+      </div>
+    </div>
+    <!--column-->
+    <!--column-->
+    <div class="col-md-6">
+      <p>文字加图片简单介绍月华拱璧。</p>
+    </div>
+    <!--column-->
+    </div>
+    <!--row-->
+
+    <p></p>
+
+    <div class="row">
+      <!--column-->
+      <div class="col-md-6">
+        <div class="view overlay z-depth-1-half">
+          <img src="img/report/yanshijieshao/section2.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-light"></div>
+        </div>
+      </div>
+      <!--column-->
+      <!--column-->
+      <div class="col-md-6">
+        <p>文字加图片简单介绍半穹顶。</p>
+      </div>
+      <!--column-->
+    </div>
+
+    <p></p>
+
+    <div class="row">
+      <!--column-->
+      <div class="col-md-6">
+        <div class="view overlay z-depth-1-half">
+          <img src="img/report/yanshijieshao/section3_1.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-light"></div>
+        </div>
+      </div>
+      <!--column-->
+      <!--column-->
+      <div class="col-md-6">
+        <p>较详细介绍酋长岩，并用卡片列出攀酋长岩的难点。</p>
+      </div>
+      <!--column-->
+    </div>
+
+    <p></p>
+
+    <div class="row">
+      <!--column-->
+      <div class="col-md-12">
+        <div class="view overlay z-depth-1-half">
+        <img src="img/report/yanshijieshao/section3_2.png" class="card-img-top" alt="">
+        <div class="mask rgba-white-light"></div>
+      </div>
+    </div>
+      <!--column-->
+    </div>
+
+    <p></p>
+
+    <h4>(5)感悟</h4>
+    <div class="row">
+      <!--column-->
+      <div class="col-md-6">
+        <div class="view overlay z-depth-1-half">
+          <img src="img/report/ganwu/ganwu.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-light"></div>
+        </div>
+      </div>
+      <!--column-->
+      <!--column-->
+      <div class="col-md-6">
+        <p>直接采用文字加图片的形式叙说感悟，并对一些重要文字和图片进行特殊处理。</p>
+      </div>
+      <!--column-->
+    </div>
+
+    <p></p>
+
+    <h3>3、页面底部</h3>
+    <p>&emsp;页面底部包括几个常用应用的图标和copyright，每个页面都有相同的页面底部，下图：</p>
+    <img src="img/report/yemiandibu.png">
+
+    </section>
+    <!--Section: deveprocess-->
+
+    <hr class="my-5">
+
+    <!--Section: problem-->
+    <section id="problem">
+      <h2>三、遇到的问题</h2>
+      <p>&emsp;由于本次网站是叙述性的，很多的内容是文字加图片，于是就避免不了排版特别乱的问题，于是在内容表现形式上需要花一定功夫，同时
+        可以选择一些合适的框架形象地表示出来。一开始某些部分是直接用的文字标签加上图片，会导致文字杂乱无章、图片乱放等看起来各种不适的情况。还有就是
+        使用的卡片、轮播等框架中的图片大小、文字格式不匹配也需要进行调整等等问题。
+      </p>
+    </section>
+    <!--Section: problem-->
+
+    <hr class="my-5">
+
+    <!--Section: howsolve-->
+    <section id="howsolve">
+      <h2>四、如何解决</h2>
+      <p>&emsp;对于两个相邻的section之间没有空行会显得难看的问题，可以采用空标签&lt;p&gt;&lt;/p&gt;解决。对于一段文字中不分明的情况，可以采用设为标题、
+        文字特写、更改文字大小颜色等形式的方法解决并将文字叙述变得规范如段首空两格。对于图片，可以调整图片在页面中的左边距，大小，高宽等将图片放置
+        一个适合的位置。
+      </p>
+    </section>
+    <!--Section: howsolve-->
+
+    <hr class="my-5">
+
+    <!--Section: notsolve-->
+    <section id="notsolve">
+      <h2>五、哪些未解决</h2>
+      <p>&emsp;网站中使用框架较少，很多都是文字加图片，尽管内容表现不会让人感觉不适，但网站仍因此显得十分单调、不美观，缺少了一定的活力。
+      </p>
+    </section>
+    <!--Section: notsolve-->
+
+    <hr class="my-5">
+
+    <!--Section: summary-->
+    <section id="summary">
+      <h2>六、总结</h2>
+      <p>&emsp;本次作业让我对网站构建有了初步的认识，网站大致可以认为是html页面和页面间的跳转组成，对MDB框架有了一定的了解，想要构建出一定质量和美观
+        的网站其实没有想象中那么难，网上有很多现成但又“隐藏”的框架等待我们去挖掘。这次作业也让我发现自己许多不足，自身创新能力不足，构建的网站太
+        死板，不能灵活地运用网络上的框架，一条路便可以走到头。不过，有了这次的经验，下次一定会做得更好，勇于战胜自身的不足，做好每一件事
+        就是如此，这也是我们自学能力的体现。
+      </p>
+    </section>
+    <!--Section: summary-->
+
+  </div>
+</main>
+<!--Main layout-->
+
+  <p></p>
+
+  <!-- Footer -->
+  <footer class="page-footer info-color font-small pt-4">
+    <!-- Footer Elements -->
+    <div class="container">
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-weixin"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-qq"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-weibo"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+      <a> Tushoupanyan.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
